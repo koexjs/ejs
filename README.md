@@ -1,18 +1,18 @@
-# koa-ejs
+# ejs
 
-[![NPM version](https://img.shields.io/npm/v/@zcorky/koa-ejs.svg?style=flat)](https://www.npmjs.com/package/@zcorky/koa-ejs)
-[![Coverage Status](https://img.shields.io/coveralls/zcorky/koa-ejs.svg?style=flat)](https://coveralls.io/r/zcorky/koa-ejs)
-[![Dependencies](https://david-dm.org/@zcorky/koa-ejs/status.svg)](https://david-dm.org/@zcorky/koa-ejs)
-[![Build Status](https://travis-ci.com/zcorky/koa-ejs.svg?branch=master)](https://travis-ci.com/zcorky/koa-ejs)
-![license](https://img.shields.io/github/license/zcorky/koa-ejs.svg)
-[![issues](https://img.shields.io/github/issues/zcorky/koa-ejs.svg)](https://github.com/zcorky/koa-ejs/issues)
+[![NPM version](https://img.shields.io/npm/v/@koex/ejs.svg?style=flat)](https://www.npmjs.com/package/@koex/ejs)
+[![Coverage Status](https://img.shields.io/coveralls/koexjs/ejs.svg?style=flat)](https://coveralls.io/r/koexjs/ejs)
+[![Dependencies](https://img.shields.io/david/koexjs/ejs.svg)](https://github.com/koexjs/ejs)
+[![Build Status](https://travis-ci.com/koexjs/ejs.svg?branch=master)](https://travis-ci.com/koexjs/ejs)
+![license](https://img.shields.io/github/license/koexjs/ejs.svg)
+[![issues](https://img.shields.io/github/issues/koexjs/ejs.svg)](https://github.com/koexjs/ejs/issues)
 
-> ejs for Koa, wrapper with ejs.
+> ejs for koa extend.
 
 ### Install
 
 ```
-$ npm install @zcorky/koa-ejs
+$ npm install @koex/ejs
 ```
 
 ### Usage
@@ -20,7 +20,7 @@ $ npm install @zcorky/koa-ejs
 ```javascript
 // See more in test
 import * as path from 'path';
-import ejs from '@zcorky/koa-ejs';
+import ejs from '@koex/ejs';
 
 import * as Koa from 'koa';
 const app = new Koa();

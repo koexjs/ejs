@@ -1,10 +1,10 @@
 {
-  "name": "@zcorky/koa-ejs",
+  "name": "@koex/ejs",
   "version": "0.0.1",
   "description": "ejs for koa",
   "main": "lib/index.js",
   "module": "lib/index.js",
-  "repository": "https://github.com/zcorky/koa-ejs",
+  "repository": "https://github.com/koexjs/ejs",
   "author": "Zero",
   "license": "MIT",
   "scripts": {
@@ -23,6 +23,7 @@
     "@types/node": "^10.9.4",
     "coveralls": "^3.0.2",
     "debug": "^4.1.0",
+    "husky": "^1.2.0",
     "koa": "^2.6.2",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
@@ -39,6 +40,11 @@
   "files": [
     "lib/"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "nyc": {
     "check-coverage": true,
     "lines": 60,
